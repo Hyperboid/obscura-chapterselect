@@ -1,0 +1,69 @@
+{
+    "id": "chapter_select_example",
+    "name": "Chapter select example",
+    "subtitle": "Wow, it's just like that game by Toby Fox!",
+    "author": "Hyperboid",
+
+    "version": "v1.0.0",
+    "engineVer": "v0.10.0-dev",
+
+    "chapter": 2,
+
+    "map": "chapter_select",
+    "useSaves": false,
+    "party": ["kris"],
+    "config": {
+        "kristal": {},
+        "obscurachapters": {
+            "infoAuthor": "COPYRIGHT LOLOLOL", // If not set, defaults to "By: [Mod.info.author]"
+            "infoProject": "A Team Eclipse picture", // If not set, defaults to "[Mod.info.name] v[Mod.info.version]"
+            "include_example": false, // Remove the default ch1 and ch2 (from the lib.json)
+            "chapters":[
+                {
+                    "image": "chapters/ch1",
+                    "name": "The Beginninging",
+                    "sound": "ui_spooky_action",
+                    "mod": "example"
+                },
+                {
+                    "image": "chapters/ch2",
+                    "name": "Kris' Rampage",
+                    "sound": "deathnoise"
+                },
+                {
+                    "image": "chapters/ch3",
+                    "name": "The Last Place You Look",
+                    "unlocked": false,
+                    "sound": "cardrive"
+                },
+                {
+                    "image": "chapters/ch4",
+                    "unlocked": false,
+                    "name": "Du_es 'N Deceits",
+                    "sound": "bluh"
+                },
+                {
+                    "image": "chapters/ch5",
+                    "name": "The Key to Pirates",
+                    "unlocked": false,
+                    "sound": "bluh"
+                },
+                {
+                    "image": "chapters/ch6",
+                    "name": "Bowser's Sky Castle",
+                    "unlocked": false,
+                    "sound": "bluh",
+                    "index": "69"
+                },
+                {
+                    "image": "chapters/ch7",
+                    "name": "Access Denied",
+                    "unlocked": false,
+                    "sound": "bluh",
+                    "mod": "Since this chapter specifies a mod you don't have, it gets blanked out.",
+                    "instant": true
+                }
+            ]
+        }
+    }
+}
